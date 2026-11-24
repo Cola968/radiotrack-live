@@ -1,4 +1,4 @@
-const CACHE='radiotrack-v2-20261124';
+const CACHE='radiotrack-v21-20261124';
 const SHELL=['/','/index.html','/styles.css','/src/app.js','/src/data.js','/favicon.svg','/manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))])));

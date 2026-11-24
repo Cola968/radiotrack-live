@@ -1,6 +1,6 @@
 {
   "name": "radiotrack",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,5 +10,5 @@
   "engines": {
     "node": ">=20"
   },
-  "description": "Live radio discovery, real stream listeners, observed airplay analytics"
+  "description": "RadioTrack 2.1: live internet radio, observed cross-station song radar, station comparison, listener snapshots"
 }

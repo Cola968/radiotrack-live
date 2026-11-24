@@ -23,3 +23,7 @@ npm test
 ```
 
 `node --test tests/*.test.js` testet Daten-Normalisierung, Suchergebnisse, Song-Entdoppelung, Zeitfilter, CSV-Sicherheit, Backups und Vergleichslogik. Für Webserver-Test ist ein echter Browser mit Internetzugriff erforderlich.
+
+## Update 2.1
+
+Neuer Song-Radar, senderübergreifende Suche in lokal gespeicherten Ausstrahlungen, zwei Radiosender live vergleichen, Hörersnapshots und transparenter Erfassungsumfang. Siehe [CHANGELOG_21.md](CHANGELOG_21.md).

@@ -1,1 +1,19 @@
-{"name":"RadioTrack – Radio & Airplay","short_name":"RadioTrack","description":"Live Radio hören, Sender suchen, Ausstrahlungen nachvollziehen.","start_url":"/","scope":"/","display":"standalone","background_color":"#0b0e16","theme_color":"#10131d","lang":"de","icons":[{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "RadioTrack – Radio & Airplay",
+  "short_name": "RadioTrack",
+  "description": "Radiosender hören, live vergleichen und beobachtete Airplays senderübergreifend analysieren.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0e16",
+  "theme_color": "#10131d",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
